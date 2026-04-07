@@ -80,6 +80,49 @@ ShopPal is a full-stack e-commerce web application developed as a final project 
     </tbody>
 </table>
 
+## 🚀 Getting Started <a name="getting-started"></a>
+
+To get a local copy up and running, follow these simple steps.
+
+### Prerequisites
+Make sure you have Node.js and PostgreSQL installed. 
+- You will need to create two `.env` files (one in `/client` and one in `/server`). Use the variables specified in the code setup.
+- Create a PostgreSQL database and provide the connection URI strings in `/server/.env`.
+
+### Installation
+1. Install complete frontend dependencies:
+   ```sh
+   cd client
+   npm install
+   ```
+2. Install complete backend dependencies:
+   ```sh
+   cd ../server
+   npm install
+   ```
+3. Initialize the database schema & seed products:
+   ```sh
+   # Make sure your Postgres database is running
+   npx ts-node -r tsconfig-paths/register -r dotenv/config seed-all.ts
+   ```
+
+### Running the Application
+To start the project in development mode, open two separate terminals.
+
+**Start the Backend Server (Terminal 1):**
+```sh
+cd server
+npm run dev
+```
+
+**Start the Frontend Client (Terminal 2):**
+```sh
+cd client
+npm run dev
+```
+
+The app will become available at `http://localhost:5173`.
+
 ## 🎈 Features <a name="features"></a>
 
 - [x] **Login/Sign Up System**: Users can create an account or log in to an existing one. Authentication is handled using JWT tokens.
