@@ -86,7 +86,7 @@ To get a local copy up and running, follow these simple steps.
 
 ### Prerequisites
 Make sure you have Node.js and PostgreSQL installed. 
-- You will need to create two `.env` files (one in `/client` and one in `/server`). Use the variables specified in the code setup.
+- Copy the `.env.example` files in both the `/client` and `/server` directories to `.env`.
 - Create a PostgreSQL database and provide the connection URI strings in `/server/.env`.
 
 ### Installation
