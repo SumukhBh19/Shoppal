@@ -18,7 +18,7 @@
 
 ## 🧐 Introduction <a name = "introduction"></a>
 
-ShopPal is a full-stack e-commerce web application developed as a final project at [Holon Institute of Technology (HIT)](https://www.hit.ac.il/). It is built with modern web and backend technologies and offers a seamless fake shopping experience for clothing, electronics, home goods, and more.
+
 
 ## ⛏️ Technologies Used
 
@@ -143,12 +143,4 @@ The app will become available at `http://localhost:5173`.
 - [**IconScout**](https://iconscout.com/) - For the lottie animation and svg vector used in our home and authentication pages.
 - [**React SVG Icons**](https://reactsvgicons.com/) - For most of the icons used in the project.
 
-## 🎉 Contributors <a name="contributors"></a>
 
-<a href="https://github.com/MaorBezalel/ShopPal/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=MaorBezalel/ShopPal" />
-</a>
-
-## 📄 License <a name="license"></a>
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
